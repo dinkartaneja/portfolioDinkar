@@ -3401,16 +3401,19 @@ input, select, textarea {
 	}
 
 		#banner:after {
-			-moz-transition: opacity 1s ease;
-			-webkit-transition: opacity 1s ease;
-			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			-moz-transition: opacity 0.5s ease;
+			-webkit-transition: opacity 0.5s ease;
+			-ms-transition: opacity 0.5s ease;
+			transition: opacity 0.5s ease;
 			-moz-transition-delay: 0.45s;
 			-webkit-transition-delay: 0.45s;
 			-ms-transition-delay: 0.45s;
 			transition-delay: 0.45s;
 			pointer-events: none;
-			background: linear-gradient(to top left, #200122, #6f0000);
+			background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 			content: '';
 			display: block;
 			height: 100%;
@@ -3476,7 +3479,7 @@ input, select, textarea {
 				#banner > .inner .content p {
 					font-size: 0.8em;
 					font-weight: 600;
-					letter-spacing: 0.25em;
+					letter-spacing: 0.2em;
 					text-transform: uppercase;
 				}
 
@@ -3644,37 +3647,49 @@ input, select, textarea {
 		/* one  about me*/
 
 		#one{
-			background: linear-gradient(to top left, #b428b4, #00fff2);
+			background: #C04848;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #480048, #C04848);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #480048, #C04848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 		}
 
 		/* two projects*/
 
 
 		#two{
-			background: linear-gradient(to top left,  #34e89e,#0f3443);
+			background: #5f2c82;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 			
 		}
 
 		/* three */
 		#three{
-			background: linear-gradient(to top left,  #c94b4b, #4b134f);
+			background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 		}
 
 		/* four other experince */
 
 		#four{
-			background: linear-gradient(to top left,  #283c86, #45a247);
-			background: linear-gradient(to top left, #43C6AC, #191654);
-				
-			
+			background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 		}
 
-		/* background: linear-gradient(to top left, #EB5757, #000000); */
+		
 
 		/* five acheivemnets */
 
 		#five{
-		background: linear-gradient(to top left,#870000,#190A05);
+		background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 		}
 
 
