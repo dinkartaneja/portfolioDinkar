@@ -4722,3 +4722,11 @@ body.is-menu-visible #menu .inner {
   top: -0.14em;
   left: 10px;
 }
+
+#whatsapp {
+  color: #ffffff;
+  background-color: #25d366;
+}
+#whatsapp:hover {
+  background-color: #34b7f1;
+}
